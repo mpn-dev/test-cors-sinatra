@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'json'
+gem 'sinatra',                  require: 'sinatra/base'
+gem 'sinatra-logger',           '>= 0.2.6'
+gem 'sinatra-contrib',          '>= 3.0.6'
+gem 'sinatra-cross_origin'
+gem 'sinatra-cors',             '~> 1.2'
+gem 'rack-cors'
+gem 'puma',                     '>= 6.3.0'

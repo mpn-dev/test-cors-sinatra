@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.2.2)
+    json (2.6.3)
+    multi_json (1.15.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.9)
+    puma (6.3.0)
+      nio4r (~> 2.0)
+    rack (2.2.8)
+    rack-cors (2.0.2)
+      rack (>= 2.0.0)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
+    ruby2_keywords (0.0.5)
+    semantic_logger (4.14.0)
+      concurrent-ruby (~> 1.0)
+    sinatra (3.1.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.1.0)
+      tilt (~> 2.0)
+    sinatra-contrib (3.1.0)
+      multi_json
+      mustermann (~> 3.0)
+      rack-protection (= 3.1.0)
+      sinatra (= 3.1.0)
+      tilt (~> 2.0)
+    sinatra-cors (1.2.0)
+    sinatra-cross_origin (0.4.0)
+    sinatra-logger (0.3.2)
+      semantic_logger
+      sinatra
+    tilt (2.2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  json
+  puma (>= 6.3.0)
+  rack-cors
+  sinatra
+  sinatra-contrib (>= 3.0.6)
+  sinatra-cors (~> 1.2)
+  sinatra-cross_origin
+  sinatra-logger (>= 0.2.6)
+
+BUNDLED WITH
+   2.4.16
