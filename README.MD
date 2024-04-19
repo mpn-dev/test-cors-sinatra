@@ -1,8 +1,8 @@
 ## Setup Dependency ##
-`bundle install`
+`bundle install`<br>
 
 ## How to Run ##
-- Manual
-  `bundle exec rackup -p<port>`
-- Using `make`
-  Type `make run` then enter 
+- Manual<br>
+  `bundle exec rackup -p<port>`<br>
+- Using `make`<br>
+  Type `make run` then enter<br>
